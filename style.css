@@ -1,0 +1,55 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(236, 236, 250);
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#slider {
+    width: 80%;
+    max-width: 500px;
+    height: 25vw;
+    max-height: 150px;
+
+    margin-top: 1rem;
+
+    position: relative;
+}
+
+#slider img{
+    position: absolute;
+
+    margin-top: 1.75rem;
+    margin-left: 6rem;
+    width: 300px;
+    height: 300px;
+    border-radius: 170px;
+
+    object-fit: cover;
+
+}
+
+section{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 80%;
+    max-width: 500px;
+    height: 400px;
+    
+    margin: auto;
+    margin-top: 3rem;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.575);
+    
+}
+
+#msg {
+    text-align: center;
+    font-size: 12px;
+}
