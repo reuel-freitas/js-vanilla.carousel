@@ -1,1 +1,3 @@
-# js-vanilla.carousel
+Nesse projeto, aprendi a desenvolver um carrossel sem utilizar frameworks, apenas como Javascript e com o simples objetivo de desenvolver uma aplicação que além de mostrar a hora, mostrasse imagens correspondentes ao turno. Durante o desenvolvimento, tive dificuldade para alterar entre as diferentes pastas em que as imagens estavam alocadas, consegui resolver através da manipulação do DOM. 
+Na refatoração do código, tive outro impasse, pois a função criada para mostrar data e hora estava sendo responsável por checar o horário e selecionar a pasta em que as images estão alocadas, criei uma função para fazer esse teste separado da função data-hora e apenas fazer a chamada dentro de exibeDataHora();
+Apesar de não ser alta a complexidade, foi bem interessante desenvolver esse projeto para aperfeiçoar minha compreensão sobre manipulação do DOM e melhorar a modelagem dos códigos que tenho escrito.
